@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="$!{env.imgUrl}/css/bootstrap.css" />
 		
 		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/respond.min.js"></script>
-		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/modernizr.js"></script>
+		<script type="text/javascript" src="$!{env.imgUrl}/modernizr/modernizr.js"></script>
 		
 		#UA()
 	</head>

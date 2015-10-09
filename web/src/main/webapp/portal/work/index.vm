@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>WideKa</title>
+		#ICON()
+		
+		<link rel="stylesheet" href="$!{env.imgUrl}/css/bootstrap.css" />
+		
+		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/respond.min.js"></script>
+		<script type="text/javascript" src="$!{env.imgUrl}/modernizr/modernizr.js"></script>
+		
+		#UA()
+	</head>
+	
+	<body class="">
+		
+        <section id="top">
+    		<header id="home-top" class="nav-top nav-fixed nav-root">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-4 col-xs-4">
+    						<h1 id="header-logo" class="image-text">
+    							<a href="/">
+    								<span class="mask"></span>
+    								<span class="behind"></span>
+    								Sean Halpin
+    								<i class=""></i>
+    							</a>
+    						</h1>
+    					</div>
+    					<div class="col-md-8 col-xs-8">
+    						<nav id="top-nav">
+    							<ul class="nav-list transistion">
+									<li><a href="$!{env.appUrl}/index.htm">About</a></li>
+    								<li><a class="active" href="$!{env.appUrl}/work/index.htm">Work</a></li>
+    								<li><a href="$!{env.appUrl}/notes/index.htm">Notes</a></li>
+    							</ul>
+    						</nav>
+    					</div>
+    				</div>
+    			</div>
+    		</header>
+				
+			<div class="masthead-wrap">
+    			<div id="title" class="work-head">
+    				<div class="container">
+    					<div class="transistion cloud left-cloud-work"></div>
+    					<div class="transistion cloud right-cloud-work"></div>
+    					<div class="transistion flag flag-left"></div>
+    					<div class="transistion flag flag-right"></div>
+    					<div class="row">
+							<div class="col-md-12">
+    							<div id="head-slider" class="transistion">
+    								<div class="slide-contents">
+    									<div class="slide">
+    										<h2 class="work">
+    											<figure class="">
+    												<img src="$!{env.imgUrl}/image/work/work.svg" />
+    											</figure>
+    										</h2>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+		</section>
+
+		<section id="hello">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<article>
+    						<figure>
+    							<img src="$!{env.imgUrl}/image/work/pencil.svg" />
+    						</figure>
+    						<h3>What I've been up to.</h3>
+    						<p class="info">
+    						Here's a selection of some recent work. For more up to the minute work you can visit me on <a class="new-window" href="http://dribbble.com/seanehalpin">dribbble</a> or <a class="new-window" href="http://twitter.com/seanehalpin">twitter</a>.
+    						</p>
+    					</article>
+    				</div>
+    			</div>
+    		</div>
+		</section>
+	
+		<section id="table" class="work-shots">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="shot">
+    						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/rest-tablet.jpg" alt="Table Reservation" width="900" height="441" />
+    					</div>
+    					<div class="shot-info">
+    						<h2>微官网建设</h2>
+    						<h3>Interface Design / UI</h3>
+    						<p>微官网-品牌的宣传与展示，与客户建立联系的直接渠道。服务包括：公众号注册 、公众号认证 、日常运营指导、一个月免费代运营</p>
+    						<p class="btn-hldr shot-btn">
+    							<a href="https://dribbble.com/shots/1608486-Reservation-Table" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+	
+    	<section id="emp" class="work-shots">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="shot">
+    						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/emp-hp.jpg" alt="Employify" width="800" height="538" />
+    					</div>
+    					<div class="shot-info">
+    						<h2>微商城建设</h2>
+    						<h3>WordPress Theme / UI</h3>
+    						<p>微商城-微信网上销售平台服务包括：公众号注册 、公众号认证 、微信支付、店铺装修与商城开通、架构搭建、数据分析、日常运营指导、一个月免费代运营</p>
+    						<p class="btn-hldr shot-btn">
+    							<a href="https://dribbble.com/shots/1518432-Employify-Resume" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+	
+    	<section id="origami" class="work-shots">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="shot">
+    						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/origami-hp.jpg" alt="Origami" width="800" height="538" />
+    					</div>
+    					<div class="shot-info">
+    						<h2>微商城代运营</h2>
+    						<h3>Web Design / UI</h3>
+    						<p>服务包括：基础服务、商城搭建、运营策划、公众号推广；微商城定位、风格设计；每月推文、年月一次营销策划活动</p>
+    						<p class="btn-hldr shot-btn">
+    							<a href="http://drbl.in/krrk" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+		
+    	<section id="journey" class="work-shots">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-12">
+    					<div class="shot">
+    						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/journey-hp.jpg" alt="Journey" width="800" height="538" />
+    					</div>
+    					<div class="shot-info">
+    						<h2>微商城代运营-vip</h2>
+    						<h3>Web Design / UI / UX / App Design</h3>
+    						<p>服务包括：基础服务、商城搭建、运营策划、公众号推广、商户培训、线下展位；微商城定位、风格设计；每月推文、年月一次营销策划活动；每年4次商户培训；每年2次线下展位服务</p>
+    						<p class="btn-hldr shot-btn">
+    							<a href="http://drbl.in/kocR" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
+    						</p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+	
+		#parse("/portal/framework/help.vm")
+		#parse("/portal/framework/footer.vm")
+	
+		#JSM(["jquery", "bootstrap"])
+		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/app.js"></script>
+		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/init.min.js"></script>
+	</body>
+</html>

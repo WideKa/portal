@@ -3,10 +3,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				<ul class="footer-list">
-					<li><a href="#">dribbble</a></li>
-					<li><a href="#">instagram</a></li>
-					<li><a href="#">twitter</a></li>
-					<li><a href="#" class="email-lnk">hire me</a></li>
+					<li><a href="#">微信</a></li>
+					<li><a href="#">新浪微博</a></li>
+					<li><a href="#">腾讯微博</a></li>
+					<li><a href="#" class="email-lnk">联系我们</a></li>
 				</ul>
 			</div>
 		</div>
