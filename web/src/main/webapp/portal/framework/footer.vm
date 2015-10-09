@@ -1,3 +1,19 @@
-<footer class="navbar navbar-fixed-bottom text-center">
-	<p>&copy; 2015 papa2-inc.com 版权所有</p>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="footer-list">
+					<li><a href="#">dribbble</a></li>
+					<li><a href="#">instagram</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#" class="email-lnk">hire me</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p>© 2015 <a href="#">WideKa</a>. All rights reserved.</p>
+			</div>
+		</div>
+	</div>
 </footer>

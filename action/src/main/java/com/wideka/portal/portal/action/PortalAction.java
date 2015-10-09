@@ -17,7 +17,6 @@ public class PortalAction extends BaseAction {
 	 * @return
 	 */
 	public String index() {
-
 		return SUCCESS;
 	}
 

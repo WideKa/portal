@@ -16,8 +16,8 @@
 	</head>
 	
 	<body class="">
+		
 		<section id="top">
-			
 			<header id="home-top" class="nav-top nav-fixed nav-root">
 				<div class="container">
 					<div class="row">
@@ -34,9 +34,9 @@
     					<div class="col-md-8 col-xs-8">
     						<nav id="top-nav">
     							<ul class="nav-list transistion">
-									<li><a class="active" href="#">About</a></li>
-    								<li><a href="#">Work</a></li>
-    								<li><a href="#">Notes</a></li>
+									<li><a class="active" href="$!{env.appUrl}/index.htm">About</a></li>
+    								<li><a href="$!{env.appUrl}/work/index.htm">Work</a></li>
+    								<li><a href="$!{env.appUrl}/notes/index.htm">Notes</a></li>
     							</ul>
     						</nav>
     					</div>
@@ -76,7 +76,6 @@
     				</div>
     			</div>
 			</div>
-			
 		</section>
 
 		<section id="hello">
@@ -95,15 +94,7 @@
     		</div>
 		</section>
 
-		<div class="breaker">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<div class="line"></div>
-    				</div>
-    			</div>
-    		</div>
-		</div>
+		#parse("/portal/framework/breaker.vm")
 	
     	<section id="what-i-do">
     		<div class="container">
@@ -155,54 +146,9 @@
 			</div>
     	</section>
 	
-		<div class="breaker">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="line"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-        <section id="i-can-help">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<article>
-    						<header>
-    							<h2>I can help.</h2>
-    							<h3>I&rsquo;m currently available for freelance work.</h3>
-    						</header>
-    						<p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
-    						<p class="btn-hldr">
-    							<a href="#" class="main-btn email-lnk">message me <i class="email"></i></a>
-    						</p>
-    					</article>
-    				</div>
-    			</div>
-    		</div>
-        </section>
-
-		<footer>
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<ul class="footer-list">
-    						<li><a href="#">dribbble</a></li>
-    						<li><a href="#">instagram</a></li>
-    						<li><a href="#">twitter</a></li>
-    						<li><a href="#" class="email-lnk">hire me</a></li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="row">
-    				<div class="col-md-12">
-    					<p>© 2015 <a href="#">Sean Halpin</a>. All rights reserved.</p>
-    				</div>
-    			</div>
-    		</div>
-		</footer>
+		#parse("/portal/framework/breaker.vm")
+		#parse("/portal/framework/help.vm")
+		#parse("/portal/framework/footer.vm")
 	
 		#JSM(["jquery", "bootstrap"])
 		<script type="text/javascript" src="$!{env.imgUrl}/js/portal/app.js"></script>
