@@ -33,9 +33,9 @@
     					<div class="col-md-8 col-xs-8">
     						<nav id="top-nav">
     							<ul class="nav-list transistion">
-									<li><a href="$!{env.appUrl}/index.htm">About</a></li>
-    								<li><a class="active" href="$!{env.appUrl}/work/index.htm">Work</a></li>
-    								<li><a href="$!{env.appUrl}/notes/index.htm">Notes</a></li>
+									<li><a href="$!{env.appUrl}/index.htm">关于</a></li>
+    								<li><a class="active" href="$!{env.appUrl}/work/index.htm">工作</a></li>
+    								<li><a href="$!{env.appUrl}/notes/index.htm">联系我们</a></li>
     							</ul>
     						</nav>
     					</div>
@@ -70,24 +70,6 @@
     		</div>
 		</section>
 
-		<section id="hello">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<article>
-    						<figure>
-    							<img src="$!{env.imgUrl}/image/work/pencil.svg" />
-    						</figure>
-    						<h3>What I've been up to.</h3>
-    						<p class="info">
-    						Here's a selection of some recent work. For more up to the minute work you can visit me on <a class="new-window" href="http://dribbble.com/seanehalpin">dribbble</a> or <a class="new-window" href="http://twitter.com/seanehalpin">twitter</a>.
-    						</p>
-    					</article>
-    				</div>
-    			</div>
-    		</div>
-		</section>
-	
 		<section id="table" class="work-shots">
     		<div class="container">
     			<div class="row">
@@ -168,7 +150,6 @@
     		</div>
     	</section>
 	
-		#parse("/portal/framework/help.vm")
 		#parse("/portal/framework/footer.vm")
 	
 		#JSM(["jquery", "bootstrap"])
