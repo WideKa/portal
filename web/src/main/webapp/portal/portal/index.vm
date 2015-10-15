@@ -5,6 +5,11 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<title>WideKa</title>
+		
+		<meta name="description" content="杭州哇咖网络科技有限公司" />
+		<meta name="keywords" content="WideKa, 哇咖, 微信, 有赞, 微信商城, 粉丝营销, 微信商城运营" />
+		<meta name="robots" content="index, follow" />
+		
 		#ICON()
 		
 		<link rel="stylesheet" href="$!{env.imgUrl}/css/bootstrap.css" />
