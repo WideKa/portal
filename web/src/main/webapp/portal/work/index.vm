@@ -81,9 +81,11 @@
     						<h2>Android开发</h2>
     						<h3>Android Developer</h3>
     						<p>安卓APP应用软件已经占据国内移动应用市场的70%以上，app软件的重要性日益凸显。拥有成熟安卓开发团队，我们承诺，为您提供有品质保障的交付产品。</p>
-    						<p class="btn-hldr shot-btn">
+    						<!--
+							<p class="btn-hldr shot-btn">
     							<a href="https://dribbble.com/shots/1608486-Reservation-Table" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
+							-->
     					</div>
     				</div>
     			</div>
@@ -101,9 +103,11 @@
     						<h2>IOS开发</h2>
     						<h3>IOS Developer</h3>
     						<p>IOS的应用软件在国内移动应用市场占28%左右，为您提供一战式的ios完整的系统结构与内容编程。</p>
+							<!--
     						<p class="btn-hldr shot-btn">
     							<a href="https://dribbble.com/shots/1518432-Employify-Resume" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
+							-->
     					</div>
     				</div>
     			</div>
@@ -121,9 +125,11 @@
     						<h2>Web应用开发</h2>
     						<h3>Web Developer</h3>
     						<p>多年web应用程序开发实战经验，关注并理解客户需求，不断以卓越的产品和服务满足客户需求，提高您的用户体验，提升工作效率。</p>
-    						<p class="btn-hldr shot-btn">
+    						<!--
+							<p class="btn-hldr shot-btn">
     							<a href="http://drbl.in/krrk" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
+							-->
     					</div>
     				</div>
     			</div>
