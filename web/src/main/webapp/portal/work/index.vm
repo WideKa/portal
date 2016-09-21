@@ -78,9 +78,9 @@
     						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/rest-tablet.jpg" alt="Table Reservation" width="900" height="441" />
     					</div>
     					<div class="shot-info">
-    						<h2>微官网建设</h2>
-    						<h3>Interface Design / UI</h3>
-    						<p>微官网-品牌的宣传与展示，与客户建立联系的直接渠道。服务包括：公众号注册 、公众号认证 、日常运营指导、一个月免费代运营</p>
+    						<h2>Android开发</h2>
+    						<h3>Android Developer</h3>
+    						<p>安卓APP应用软件已经占据国内移动应用市场的70%以上，app软件的重要性日益凸显。拥有成熟安卓开发团队，我们承诺，为您提供有品质保障的交付产品。</p>
     						<p class="btn-hldr shot-btn">
     							<a href="https://dribbble.com/shots/1608486-Reservation-Table" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
@@ -98,9 +98,9 @@
     						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/emp-hp.jpg" alt="Employify" width="800" height="538" />
     					</div>
     					<div class="shot-info">
-    						<h2>微商城建设</h2>
-    						<h3>WordPress Theme / UI</h3>
-    						<p>微商城-微信网上销售平台服务包括：公众号注册 、公众号认证 、微信支付、店铺装修与商城开通、架构搭建、数据分析、日常运营指导、一个月免费代运营</p>
+    						<h2>IOS开发</h2>
+    						<h3>IOS Developer</h3>
+    						<p>IOS的应用软件在国内移动应用市场占28%左右，为您提供一战式的ios完整的系统结构与内容编程。</p>
     						<p class="btn-hldr shot-btn">
     							<a href="https://dribbble.com/shots/1518432-Employify-Resume" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
@@ -118,9 +118,9 @@
     						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/origami-hp.jpg" alt="Origami" width="800" height="538" />
     					</div>
     					<div class="shot-info">
-    						<h2>微商城代运营</h2>
-    						<h3>Web Design / UI</h3>
-    						<p>服务包括：基础服务、商城搭建、运营策划、公众号推广；微商城定位、风格设计；每月推文、年月一次营销策划活动</p>
+    						<h2>Web应用开发</h2>
+    						<h3>Web Developer</h3>
+    						<p>多年web应用程序开发实战经验，关注并理解客户需求，不断以卓越的产品和服务满足客户需求，提高您的用户体验，提升工作效率。</p>
     						<p class="btn-hldr shot-btn">
     							<a href="http://drbl.in/krrk" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
     						</p>
@@ -130,26 +130,6 @@
     		</div>
     	</section>
 		
-    	<section id="journey" class="work-shots">
-    		<div class="container">
-    			<div class="row">
-    				<div class="col-md-12">
-    					<div class="shot">
-    						<img class="lazy" src="$!{env.imgUrl}/image/work/loader.gif" data-original="$!{env.imgUrl}/image/work/journey-hp.jpg" alt="Journey" width="800" height="538" />
-    					</div>
-    					<div class="shot-info">
-    						<h2>微商城代运营-vip</h2>
-    						<h3>Web Design / UI / UX / App Design</h3>
-    						<p>服务包括：基础服务、商城搭建、运营策划、公众号推广、商户培训、线下展位；微商城定位、风格设计；每月推文、年月一次营销策划活动；每年4次商户培训；每年2次线下展位服务</p>
-    						<p class="btn-hldr shot-btn">
-    							<a href="http://drbl.in/kocR" class="main-btn new-window">view on dribbble <i class="drib"></i></a>
-    						</p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</section>
-	
 		#parse("/portal/framework/footer.vm")
 	
 		#JSM(["jquery", "bootstrap"])
